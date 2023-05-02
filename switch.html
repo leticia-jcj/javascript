@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>JavaScript</title>
+        <script>
+
+            var parametro = prompt('Escolha uma opção - 1: Extrato bancário. 2: Saque conta corrente. ')
+
+
+            switch (parseInt(parametro)) {
+                case 1:
+                    //se parametro === 1
+                    document.write('Você escolheu a opção ' + parametro + ', Extrato bancário.')
+                    break
+                
+                case 2:
+                    //se parametro === 2
+                    document.write('Você escolheu a opção ' + parametro + ', Saque conta corrente.')
+                    break
+                
+                default:
+                    //se parametro não encontrado
+                    document.write('Opção inválida! ')
+
+            }
+
+         
+
+       </script>
+    </head>
+
+    <body>
+    </body>
+</html>
